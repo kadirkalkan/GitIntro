@@ -13,3 +13,19 @@ komutu kullanılır.
 Takibe alınan dosyaların bir paket olarak versiyonlanması için
 $ git commit -m "versiyon_mesajı"
 Komutu çalıştırılır
+
+Commit Alınan Değişikliklerin Sunucuya Gönderilmesi için
+$ git push origin branch_name(main)
+Komutu çalıştırılır.
+
+Eğerki Yapılmış en güncel değişiklikler sunucudan çekilmek isteniyorsa
+$ git pull origin branch_name(main)
+Komutu kullanılır.
+
+Eğer spesifik bir versiyona(commit) dönmek isteniliyorsa
+$ git reset --hard commit_id 
+Komutu Kullanılır.
+
+Aktif olan commit üzerinde yapılmış bütün değişiklikler sıfırlanıp commit'in varsayılanına dönmek istiyorsanız
+$ git reset --hard
+komutu tek başına kullanılır.
