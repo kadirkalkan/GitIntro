@@ -1,0 +1,15 @@
+Git Aktifleştirmek İçin Terminalden ilgili Klasöre Gidilir ve
+$ git init
+komutu çalıştırılır.
+
+Sonrasında Yapılan Değişiklikler kontrol edilmek istenildiğinde
+$ git status 
+ile değişiklikler görülebilir.
+
+Değişikliklerin Takibe alınması için
+$ git add dosya_adi --> $ git add .   <--> $ git add -a
+komutu kullanılır.
+
+Takibe alınan dosyaların bir paket olarak versiyonlanması için
+$ git commit -m "versiyon_mesajı"
+Komutu çalıştırılır
